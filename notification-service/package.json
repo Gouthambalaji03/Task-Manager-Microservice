@@ -1,7 +1,7 @@
 {
-  "name": "task-service",
+  "name": "notification-service",
   "version": "1.0.0",
-  "description": "Task service for managing task data",
+  "description": "Notification service for sending notifications",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
