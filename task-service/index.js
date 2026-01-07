@@ -26,6 +26,8 @@ const taskSchema = new mongoose.Schema({
 });
 const Task = mongoose.model("Task", taskSchema);
 
+
+// RabbitMQ connection and channel
 let channel, connection;
 
 async function connectRabbitMQ(retries = 5, delay = 10000) {
